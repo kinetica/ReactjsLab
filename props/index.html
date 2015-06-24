@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<script type="text/javascript" src="../bower_components/react/react.min.js"></script>
+	<script type="text/javascript" src="../bower_components/react/JSXTransformer.js"></script>
+	<script type="text/jsx">
+
+
+		var CommentBox = React.createClass({
+			getDefaultProps: function(){
+				return {
+					nombre: "juan"
+				}
+			},
+			clickHandler: function(){
+				console.log("hola");
+				
+				this.props.nombre = "josé";	
+				
+				this.setState({
+					
+				});
+			},
+			render: function(){
+				return (<div onClick={this.clickHandler}>{this.props.nombre}</div>);
+			}
+		});
+
+		React.render(<CommentBox/>, document.getElementById('content'));
+
+		
+	</script>
+	<title></title>
+</head>
+<body>
+	<div id="content"></div>
+</body>
+</html>
