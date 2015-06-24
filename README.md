@@ -49,5 +49,6 @@ Permite utilizar mi propia arquitectura
 Problemas:
 Acoplamiento de html
 
-
+Ejemplo de app mobile con Cordoba
+http://coenraets.org/apps/react-employee-directory/iteration7/
 
