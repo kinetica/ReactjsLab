@@ -1,0 +1,16 @@
+{
+  "name": "ReactjsLab",
+  "version": "0.0.0",
+  "homepage": "https://github.com/kinetica/ReactjsLab",
+  "authors": [
+    "Leonardo <leonardo@kinetica-solutions.com>"
+  ],
+  "description": "ejemplos de reactjs con comparativas con angularjs",
+  "keywords": [
+    "reactjs"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "react": "~0.13.3"
+  }
+}
