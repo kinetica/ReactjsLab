@@ -22,6 +22,7 @@ Un componente es una clase javascript que tiene un método render que retorna un
 Cada componente es inmutable, si cambian los datos se destruye y se vuelve a crear
 La idea es analizar la aplicación y detectar los elementos más pequeños que pueden cambiar
 
+```javascript
 var APP = React.createClass({
 	render: function(){
          return (<h1>Hola</h1>);
@@ -29,6 +30,7 @@ var APP = React.createClass({
 });
 
 React.renderComponent(<APP />, document.body);
+```
 
 Flux es una arquitectura propuesta por Facebook para organizar las aplicaciones
 
